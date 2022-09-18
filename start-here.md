@@ -1,4 +1,4 @@
-###Installation Guide and Running your First Python Script
+####Installation Guide and Running your First Python Script
 
 ####Running Python in Windows or Linux
 - Download and install Python from here: http://www.python.org/download/releases/2.7.6/
