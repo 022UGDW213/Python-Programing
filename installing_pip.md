@@ -1,4 +1,4 @@
-## Installing the Python Package Managers
+### Installing the Python Package Managers
 
 Packages are groups of functions that someone else has built in Python to share with the world
 Packages can help you perform a set of functions
