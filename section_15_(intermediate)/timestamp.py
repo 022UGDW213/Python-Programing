@@ -1,4 +1,4 @@
-
+#
 # Getting a timestamp in the format YYYYMMDDHHMMSS
 
 ## NOTE: For clarity and consistency, all examples below will use the same timestamp; 2013 October 20 09:38:26
