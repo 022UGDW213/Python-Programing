@@ -29,23 +29,23 @@ lesson_subsection = 2 # Variable Assignment
 
 # We've stored values inside of lesson_section and lesson_subsection, so now let's use them!
 
-print "We are on Section #", lesson_section
-print "And this is unit #", lesson_subsection, ", which covers Variable Assignment"
+print("We are on Section #", lesson_section)
+print("And this is unit #", lesson_subsection, ", which covers Variable Assignment")
 
-print "Take another look at the code for the basic math unit."
-print "Anywhere you see a number in that code, you can replace it with a variable that holds a number instead."
+print("Take another look at the code for the basic math unit.")
+print("Anywhere you see a number in that code, you can replace it with a variable that holds a number instead.")
 
 # Let's see that in practice:
 days_in_a_year = 365 # Beautifully descriptive variable names are their own comments
 my_age = 21 # yeah, right!
 
-print "My age is ", my_age, ", and I've been alive for ", days_in_a_year * my_age, " days, give or take."
+print("My age is ", my_age, ", and I've been alive for ", days_in_a_year * my_age, " days, give or take.")
 
 # Now let's change the value stored in days_in_a_year to account for leap years and try it again.
 
 days_in_a_year = days_in_a_year + .25 # Equivalent to days_in_a_year = 365 + .25
 
-print "My age is ", my_age, ", and I've been alive for ", days_in_a_year * my_age, " days, give or take, now that I'm including leap years."
+print("My age is ", my_age, ", and I've been alive for ", days_in_a_year * my_age, " days, give or take, now that I'm including leap years.")
 
 
 

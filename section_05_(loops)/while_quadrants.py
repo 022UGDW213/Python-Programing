@@ -5,7 +5,7 @@ sw_addresses = []
 se_addresses = []
 no_quadrant = []
 
-address = raw_input("Enter an address: ")
+address = input("Enter an address: ")
 
 while address.strip() != "": # every time it reaches the end of the loop it will ask: once you've stripped away all of the extra whitespace, is address an empty string?
     
@@ -28,14 +28,14 @@ while address.strip() != "": # every time it reaches the end of the loop it will
 
         no_quadrant.append(' '.join(address))
 
-    address = raw_input("Enter an address: ") # It's very important that we include this line to give it a chance to change the value the while loop checks.
+    address = input("Enter an address: ") # It's very important that we include this line to give it a chance to change the value the while loop checks.
 
 
-print "NW addresses include: {0}".format(nw_addresses)
-print "NE addresses include: {0}".format(ne_addresses)
-print "SW addresses include: {0}".format(sw_addresses)
-print "SE addresses include: {0}".format(se_addresses)
-print "Addresses without a quadrant include: {0}".format(no_quadrant)
+print("NW addresses include: {0}".format(nw_addresses))
+print("NE addresses include: {0}".format(ne_addresses))
+print("SW addresses include: {0}".format(sw_addresses))
+print("SE addresses include: {0}".format(se_addresses))
+print("Addresses without a quadrant include: {0}".format(no_quadrant))
 
 # This is pretty similar to the for_quadrants.py example, but there are some key differences.
 

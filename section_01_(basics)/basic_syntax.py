@@ -10,9 +10,9 @@
 
 # The print statement is a good place to start -- it allows us to see results right away.
 
-print "Or you can have a comment on the same line" # as a command that Python WILL run
+print("Or you can have a comment on the same line") # as a command that Python WILL run
 
-print "The print statement will output some text to the screen." # it doesn't print anything to paper.
+print("The print statement will output some text to the screen.") # it doesn't print anything to paper.
 
 # Python will run commands from top to bottom, left to right
 
@@ -21,14 +21,14 @@ print "The print statement will output some text to the screen." # it doesn't pr
 
 
 
-print "You can use lots of newlines to space things out if you like"
-print "Or you can keep your statements close to one another."
+print("You can use lots of newlines to space things out if you like")
+print("Or you can keep your statements close to one another.")
 
-print "It's really up to you, but generally speaking, you'll want to make your code as readable as possible."
+print("It's really up to you, but generally speaking, you'll want to make your code as readable as possible.")
 
 # These two statements are identical
-print 4+4
-print 4 + 4
+print(4+4)
+print(4 + 4)
 
 # Indentation levels matter a lot, even if other kinds of whitespace like newlines or spacing don't matter as much
 

@@ -15,9 +15,9 @@ def is_alphaspace(string):
 
 test_string = "This string will return false for each of isalpha and isspace but it will return true for the custom function"
 
-print "test_string.isalpha() gives us: ", test_string.isalpha()
-print "test_string.isspace() gives us: ", test_string.isspace()
+print("test_string.isalpha() gives us: ", test_string.isalpha())
+print("test_string.isspace() gives us: ", test_string.isspace())
 
 # Note how the syntax differs.  That's because is_alphaspace() isn't a string method, it's a custom function.
-print "But is_alphaspace(test_string) gives us: ", is_alphaspace(test_string)
+print("But is_alphaspace(test_string) gives us: ", is_alphaspace(test_string))
 

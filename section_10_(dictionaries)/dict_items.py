@@ -11,7 +11,7 @@ contacts = {
 
 # We can use the dictionary method .items() to give us a list of all of the items in contacts.
 
-print contacts.items()
+print(contacts.items())
 
 # Strictly speaking, .items() doesn't give us a list, it gives us a *tuple*, which is another way of storing information in Python.
 # Tuples are almost identical to lists, except they're read-only.  You can't add to/remove from a tuple.
@@ -20,6 +20,6 @@ print contacts.items()
 # .items() gives us a key and value pair together - so we can use that directly when we're looping.
 
 for contact, phone in contacts.items():
-    print "{0}'s number is {1}".format(contact, phone)
+    print("{0}'s number is {1}".format(contact, phone))
 
 # .items() is probably most commonly used out of .keys(), .values(), and .items() because it gives you both the key and the value together.

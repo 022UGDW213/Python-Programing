@@ -3,18 +3,18 @@ def loop_example(list_to_loop_through):
 
     """ Assuming each item in list_to_loop_through is a number, return a list of each item in that list squared. """
 
-    print "I'm going to begin to loop through this list: ", list_to_loop_through, "\n"
+    print("I'm going to begin to loop through this list: ", list_to_loop_through, "\n")
 
     list_items_squared = []
 
     for each_item in list_to_loop_through:
 
-        print "Now I'm on: ", each_item
-        print "{0} squared is {1}\n".format(each_item, each_item**2)
+        print("Now I'm on: ", each_item)
+        print("{0} squared is {1}\n".format(each_item, each_item**2))
         
         list_items_squared.append(each_item**2)
 
-    print "Now I'm done looping through the list, and I'm going to return the new list, where each list item has been squared."
+    print("Now I'm done looping through the list, and I'm going to return the new list, where each list item has been squared.")
 
     return list_items_squared
 

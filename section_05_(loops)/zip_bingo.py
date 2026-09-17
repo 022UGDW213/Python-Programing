@@ -2,7 +2,7 @@
 
 words = ['apple', 'banana', 'carrot', 'danke', 'elephant', 'fruit', 'gorilla', 'horse, michael', 'ice cream', 'jack, one eye', 'kazoo', 'lollerskates', 'mango', 'noodles', 'oboe', 'porcupine', 'quill', 'rowboat', 'sailboat', 'trolley', 'umbrella', 'voltage', 'watermelon', 'xylophobe', 'yarn', 'zebra-clops']
 
-print "words has {0} words in the list.".format(len(words))
+print("words has {0} words in the list.".format(len(words)))
 
 output = ''
 
@@ -29,7 +29,7 @@ for word, position in zip(words, range(25)):
 	if position in (4,9,14,19,24):
 		output += "\n"
 
-print output
+print(output)
 
 # apple,banana,carrot,danke,elephant,
 # fruit,gorilla,horse, michael,ice cream,jack, one eye,

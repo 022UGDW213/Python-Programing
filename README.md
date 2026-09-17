@@ -17,11 +17,15 @@ This repository is a structured Python programming course covering fundamentals 
 | 05 | **Loops** — for, while, iteration patterns | Complete |
 | 06 | **Strings & Lists** — Combined operations | Complete |
 | 07 | **Files** — I/O, reading, writing, CSV/JSON | Complete |
+| 08 | **Tuples & Sets** — Immutability, unpacking, set math | Complete |
 | 09 | **Functions** — Def, args, lambda, decorators | Complete |
 | 10 | **Dictionaries** — Key-value, nested, methods | Complete |
 | 11 | **API** — REST, requests, JSON, authentication | Complete |
+| 12 | **Comprehensions** — List/dict/set comprehensions, generators | Complete |
+| 13 | **Standard Library** — datetime, os/sys, collections, itertools, json | Complete |
 | 14 | **Exceptions** — Try/except, custom errors | Complete |
 | 15 | **Intermediate** — OOP, modules, packages | Complete |
+| 16 | **AI/ML** — Hello AI, TensorFlow, PyTorch | Complete |
 
 ## Additional Resources
 
